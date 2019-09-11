@@ -1,0 +1,26 @@
+package collectionn;
+import java.util.*;
+
+public class Treesett {
+
+	
+	
+	public int Compare(Object o1,Object o2)
+	{
+		Integer i1=(Integer )o1;
+		Integer i2=(Integer )o2;
+		if(i1<i2)
+			return +i1;
+		else if(i1>i2)
+			return -1;
+		else 
+			return 0;
+		
+	}
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+               
+		
+	}
+
+}

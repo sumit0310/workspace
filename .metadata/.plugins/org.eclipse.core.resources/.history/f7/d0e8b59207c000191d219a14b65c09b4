@@ -1,0 +1,30 @@
+package collectionn;
+package test.Generic;
+
+
+class TestGeneric<T>
+{
+	 T Obj;
+	 TestGeneric(T ob)
+	 {
+		this.Obj=ob; 
+	 }
+	 
+public void display()
+{
+	System.out.println("this type of obj is"  +obj.getClass().getName());
+}
+public T getObj()
+{
+	return obj;
+}}
+
+	public static void main(String[] args)
+	{
+		TestGeneric<String> tg1=new TestGeneric<String>("hello");
+		tg1.display();
+		System.out.println(tg1.getObj());
+		
+	}
+
+}

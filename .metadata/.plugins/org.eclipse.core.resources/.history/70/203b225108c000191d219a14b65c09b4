@@ -1,0 +1,40 @@
+package collectionn;
+
+
+
+class TestGeneric<T>
+{
+	 T Obj;
+	 TestGeneric(T ob)
+	 {
+		this.Obj=ob; 
+	 }
+	 
+public void display()
+{
+	System.out.println("this type of obj is"  +Obj.getClass().getName());
+}
+public T getObj()
+{
+	return Obj;
+}}
+class GenExample{
+
+	public static void main(String[] args)
+	{
+		
+		
+		
+		TestGeneric<String> tg1=new TestGeneric<String>("hello");
+		tg1.display();
+		System.out.println(tg1.getObj());
+		TestGeneric<Integer> tg2=new TestGeneric<Integer>(12);
+		tg2.display();
+		System.out.println(tg2.getObj());
+		TestGeneric<Double> tg3=new TestGeneric<Double>(2.3);
+		tg3.display();
+		System.out.println(tg3.getObj());
+	}
+
+}
+

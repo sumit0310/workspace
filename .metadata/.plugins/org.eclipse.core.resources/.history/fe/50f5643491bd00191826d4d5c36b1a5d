@@ -1,0 +1,25 @@
+package great;
+
+import java.util.ArrayList;
+import java.util.List;
+
+
+public class CreateArrayListFromCollectionExample {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		
+		
+		list<integer>firstprimenumbers=new arraylist<>();
+		firstfiveprimenumber.add(2);
+		firstfiveprimenumber.add(3);
+		firstfiveprimenumber.add(4);
+		firstfiveprimenumber.add(5);
+		firstfiveprimenumber.add(6);
+		firstfiveprimenumber.add(2);
+		firstfiveprimenumber.add(2);
+		
+	}
+
+}

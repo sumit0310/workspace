@@ -1,0 +1,17 @@
+package great;	
+	
+
+import java .util.hashset;
+import.java.util.objects                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     
+import.java.util.Set;
+
+class Customer{
+	private long id;
+	private String name;
+	
+}
+
+
+
+
+
